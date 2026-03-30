@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Automation Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="Laptop Purchase Flow(failed)" verbose="2">
+    <classes>
+      <class name="poTests.purchasetest">
+        <methods>
+          <include name="down"/>
+          <include name="buying"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- poTests.purchasetest -->
+    </classes>
+  </test> <!-- Laptop Purchase Flow(failed) -->
+</suite> <!-- Failed suite [Amazon Automation Suite] -->
